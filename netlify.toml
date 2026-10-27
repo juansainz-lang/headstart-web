@@ -1,0 +1,8 @@
+# Netlify build settings (Next.js is detected and adapted automatically).
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+  NEXT_TELEMETRY_DISABLED = "1"
